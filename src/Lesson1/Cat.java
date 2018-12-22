@@ -8,7 +8,7 @@ public class Cat {
     public Cat(String name, String color, int age) {
         this.name = name;
         this.color = color;
-        this.age = getAge(age);
+        this.age = getAge();
 
     }
 
