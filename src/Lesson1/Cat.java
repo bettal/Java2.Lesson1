@@ -9,6 +9,7 @@ public class Cat {
         this.name = name;
         this.color = color;
         this.age = age;
+
     }
 
     public void info(){
