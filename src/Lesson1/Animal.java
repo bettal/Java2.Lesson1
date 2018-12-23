@@ -1,6 +1,6 @@
 package Lesson1;
 
-public class Animal {
+abstract class Animal {
     private String name;
     private String color;
     private int age;
@@ -25,4 +25,5 @@ public class Animal {
             System.out.println("Возрасть не можеть меньше нуля!");
         }
     }
+    abstract void voice(){}
 }

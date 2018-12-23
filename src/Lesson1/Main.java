@@ -7,5 +7,8 @@ public class Main {
 	cat.setAge(6);
 	cat.info();
 
+	Dog dog = new Dog("Tuzuk", "black", 7);
+	dog.info();
+
     }
 }
