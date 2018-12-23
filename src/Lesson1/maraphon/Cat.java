@@ -13,5 +13,7 @@ public class Cat extends Animal {
     @Override
     public void swim(int dist) {
         System.out.println("Коты не плавают!");
+        onDistance = false;
+
     }
 }
