@@ -12,6 +12,6 @@ public class Dog extends Animal implements MyInterface{
 
     @Override
     public void run() {
-        System.out.println("Бежит");
+        System.out.println("Собака Бежит");
     }
 }
