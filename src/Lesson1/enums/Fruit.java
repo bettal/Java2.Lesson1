@@ -1,8 +1,17 @@
 package Lesson1.enums;
 
 public enum Fruit {
-    Orange(150), Apple(200), Banana, Chery;
+    Orange("Апельсин",150), Apple("Яблоко",200),
+    Banana("Банан", 150), Chery("Вишня", 20);
+
     private int weigth;
+    private String rus;
+
+    Fruit(String rus, int weigth) {
+        this.rus = rus;
+        this.weigth = weigth;
+
+    }
 
     Fruit (int weigth) {
         this.weigth = weigth;
@@ -14,5 +23,9 @@ public enum Fruit {
 
     public int getWeigth() {
         return weigth;
+    }
+
+    public String getRus() {
+        return rus;
     }
 }

@@ -5,7 +5,7 @@ public class Main {
         Fruit fruit = Fruit.Chery;
         System.out.println(fruit.ordinal());
         for (Fruit f: Fruit.values()){
-            System.out.println(f);
+            System.out.println(f.getRus() + " весит " + f.getWeigth());
 
         }
     }
