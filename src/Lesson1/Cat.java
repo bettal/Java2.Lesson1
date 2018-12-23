@@ -1,6 +1,6 @@
 package Lesson1;
 
-public class Cat extends Animal implements Jump {
+public class Cat extends Animal implements JumpInterface {
     public Cat(String name, String color, int age) {
         super(name, color, age);
     }
