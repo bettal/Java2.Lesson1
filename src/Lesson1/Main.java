@@ -10,5 +10,9 @@ public class Main {
 	Dog dog = new Dog("Tuzuk", "black", 7);
 	dog.info();
 
+	Animal animal = new Cat("Murka", "white", 4);
+	((Cat) animal).go();
+        System.out.println(cat instanceof Animal);
+
     }
 }

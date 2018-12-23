@@ -25,5 +25,5 @@ abstract class Animal {
             System.out.println("Возрасть не можеть меньше нуля!");
         }
     }
-    abstract void voice(){}
+    abstract void voice();
 }
