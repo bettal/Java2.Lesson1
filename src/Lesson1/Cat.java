@@ -1,6 +1,6 @@
 package Lesson1;
 
-public class Cat extends Animal {
+public class Cat extends Animal implements Jump {
     public Cat(String name, String color, int age) {
         super(name, color, age);
     }
@@ -18,5 +18,15 @@ public class Cat extends Animal {
 
     public void go (){
         System.out.println("Кошка идет");
+    }
+
+    @Override
+    public void jump() {
+
+    }
+
+    @Override
+    public void run() {
+
     }
 }
