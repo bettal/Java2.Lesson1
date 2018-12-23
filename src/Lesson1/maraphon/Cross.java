@@ -1,6 +1,6 @@
 package Lesson1.maraphon;
 
-public class Cross extends Abstracte {
+public class Cross extends Obstacle {
     int lehgth;
 
     public Cross(int lehgth) {

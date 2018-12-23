@@ -1,6 +1,6 @@
 package Lesson1.maraphon;
 
-public class Wall extends Abstracte {
+public class Wall extends Obstacle {
     int height;
 
     public Wall(int height) {

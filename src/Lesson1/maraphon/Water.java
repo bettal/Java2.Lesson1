@@ -1,6 +1,6 @@
 package Lesson1.maraphon;
 
-public class Water extends Abstracte {
+public class Water extends Obstacle {
     int length;
 
     public Water(int length) {
