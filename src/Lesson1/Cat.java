@@ -1,17 +1,32 @@
 package Lesson1;
 
-public class Cat {
-    String name;
-    String color;
-    int age;
-
+public class Cat extends Animal implements JumpInterface {
     public Cat(String name, String color, int age) {
-        this.name = name;
-        this.color = color;
-        this.age = age;
+        super(name, color, age);
     }
 
-    public void info(){
-        System.out.println( name + " " + color + " " + age );
+    @Override
+    public void info() {
+        super.info();
+        System.out.println("Наша кошка хорошая");
+    }
+
+    @Override
+    void voice() {
+        System.out.println("Мяю!");
+    }
+
+    public void go (){
+        System.out.println("Кошка идет");
+    }
+
+    @Override
+    public void jump() {
+
+    }
+
+    @Override
+    public void run() {
+
     }
 }
